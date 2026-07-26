@@ -1,0 +1,27 @@
+name: student_registration_app
+description: "A student registration form app connected to a Dart backend server."
+publish_to: "none" # Prevents accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0 # Adjust based on your Dart SDK version
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # External package required for POST/GET API requests in main.dart
+  http: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment and add assets/fonts here if you use custom images or fonts later
+  # assets:
+  #   - assets/images/
